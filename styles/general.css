@@ -1,0 +1,19 @@
+:root{
+    --p-color: #6C6C80;
+    --light-green: #34CB79;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Roboto, sans-serif;
+    background-color: #F0F0F5;
+}
+a{
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu, sans-serif;
+    color: #322153;
+}

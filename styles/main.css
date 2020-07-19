@@ -1,0 +1,76 @@
+#home-page{
+    background: url('../Assets/icones/home-background.svg') no-repeat;
+    background-position: 40vw 86px;
+    height: 100vh;
+    padding: 0 8%;
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 48px;
+}
+header img {
+    width: auto;
+    height: 32px;
+}
+header a{
+    display: flex;
+}
+header a span{
+    background-image: url(../Assets/icones/log-in.svg);
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.content{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.content main{
+    padding: 48px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+.content #info {
+    transform: translateY(-80px);
+}
+.content #info h1 {
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    font-size: 40px;
+
+}
+.content #info p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 38px;
+    color: var(--p-color);
+    padding: 16px 0px;
+}
+.content #info a {
+    font-weight: bold;
+    display: flex;
+    background-color: var(--light-green);
+    width: 348px;
+    height: 72px;
+    border-radius: 8px;
+    align-items: center;
+    color: #f1f1f1;
+    transition: all 0.4s;
+}
+.content #info a span{
+    background: url(../Assets/icones/search.svg) no-repeat;
+    background-color: rgba(0,0,0,0.2);
+    height: 100%;
+    width: 20%;
+    border-radius: 8px 0px 0px 8px;
+    margin-right: 16px;
+    background-position: center;
+}
+.content #info a:hover {
+    background-color: #2fb86e;
+}
